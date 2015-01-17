@@ -31,7 +31,7 @@ gem 'pg'
 gem 'nifty-generators'
 gem "activeadmin", '0.6.5'
 gem "faker"
-#gem 'newrelic_rpm', '3.1.1'
+gem 'newrelic_rpm', '~> 3.9'
 gem 'hoptoad_notifier', '2.4.11'
 
 group :development do
