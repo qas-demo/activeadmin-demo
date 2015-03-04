@@ -104,8 +104,6 @@ GEM
       rack (>= 1.0.0)
     rack-test (0.5.7)
       rack (>= 1.0)
-    rack-throttle (0.3.0)
-      rack (>= 1.0.0)
     rails (3.0.10)
       actionmailer (= 3.0.10)
       actionpack (= 3.0.10)
@@ -156,7 +154,6 @@ DEPENDENCIES
   newrelic_rpm (= 3.1.1)
   nifty-generators
   pg
-  rack-throttle
   rails (= 3.0.10)
   rails_12factor
   unicorn
