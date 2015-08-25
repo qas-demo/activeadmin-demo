@@ -8,10 +8,10 @@
 #
 
 # Create default admin user
-AdminUser.create! do |a|
-  a.email = 'admin@example.com'
-  a.password = a.password_confirmation = 'password'
-end
+# AdminUser.create! do |a|
+#   a.email = 'admin@example.com'
+#   a.password = a.password_confirmation = 'password'
+# end
 
 # Create default user
 User.create! do |u|
