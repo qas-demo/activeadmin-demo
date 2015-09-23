@@ -1,5 +1,5 @@
 # Base image 
-FROM ruby:latest
+FROM ruby:2.1
 
 ENV HOME /home/rails/webapp
 
