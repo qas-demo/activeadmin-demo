@@ -19,5 +19,8 @@ RUN bundle install
 # Add the app code
 ADD . $HOME
 
+# setup the db with seed data
+RUN bundle exec rake db:drop db:create db:migrate db:seed
+
 # Default command
 CMD ["bundle", "exec", "rails", "s", "-p", "8000"]
