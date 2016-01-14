@@ -4,6 +4,7 @@ The [Gauge example](https://github.com/getgauge/gauge-example-java) is for this 
 
 # To run this app locally
 ```
+git checkout local_run
 bundle install
 bundle exec rake db:drop db:create db:migrate db:seed
 bundle exec rails s
