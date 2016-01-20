@@ -48,7 +48,6 @@ group :production do
   # Heroku injects it if it's not in there already
   gem 'rails_12factor'
 
-  gem 'rack-throttle'
   gem 'rack-cache'
 end
 
