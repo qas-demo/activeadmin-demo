@@ -1,6 +1,18 @@
 # The Active Admin Store
-[![Travis CI](https://img.shields.io/travis/activeadmin/activeadmin/master.svg)           ](https://travis-ci.org/activeadmin/activeadmin)
 
-This is a test application to demo Active Admin.
+This is a test application to demo Active Admin. Gauge examples use this as a sample System Under Test.
 
-http://demo.activeadmin.info
+# Prerequisites
+
+- Install JRE
+
+# Running the tests
+
+Refer to one or more of the examples
+
+- [Gauge-example-java](https://github.com/getgauge/gauge-example-java)
+- [Gauge-example-ruby](https://github.com/getgauge/gauge-example-ruby)
+- [Gauge-example-sahi](https://github.com/getgauge/gauge-example-sahi)
+- [Gauge-example-csharp](https://github.com/getgauge/gauge-example-csharp)
+
+The System Under Test should look like [this](http://demo.activeadmin.info)

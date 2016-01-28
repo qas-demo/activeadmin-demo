@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+# ruby '2.0.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
+gem 'jdbc-sqlite3'
+gem 'activerecord-jdbcsqlite3-adapter', platform: :jruby
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -26,38 +28,4 @@ gem 'inherited_resources', '~> 1.4.1'
 gem "devise"
 
 gem "faker"
-gem 'newrelic_rpm', '~> 3.9'
-gem 'hoptoad_notifier', '2.4.11'
-
-group :development do
-  gem 'mechanize','2.7.3'
-end
-
-group :production do
-  gem 'pg'
-  gem 'unicorn'
-
-  # Enable gzip compression on heroku, but don't compress images.
-  gem 'heroku-deflater'
-
-  # Heroku injects it if it's not in there already
-  gem 'rails_12factor'
-
-  gem 'rack-cache'
-end
-
-group :development, :test do
-  gem 'sqlite3'
-  gem 'factory_girl_rails'
-  gem 'rspec-rails', '~> 3.0.0'
-  gem 'spork', '~> 1.0rc'
-end
-
-group :test do
-  gem "shoulda"
-  gem "shoulda-matchers"
-  gem "webmock", "~> 1.11.0"
-  gem "webrat"
-  gem 'simplecov', :require => false
-end
-
+gem 'rack-cache'
