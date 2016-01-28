@@ -29,3 +29,5 @@ gem "devise"
 
 gem "faker"
 gem 'rack-cache'
+
+gem 'tzinfo-data'
