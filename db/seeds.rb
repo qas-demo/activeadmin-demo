@@ -31,6 +31,16 @@ NB_USERS.times do |n|
   end
 end
 
+# Create 3 Gauge users
+["FredFlintstone", "JohnnyQuest", "ScroogeMcduck"].each do |cartoon|
+  User.create! do |u|
+    u.username = cartoon
+    u.email = "#{cartoon}@example.com"
+    u.password = u.password_confirmation = 'password'
+  end
+end
+
+
 # Create 300 Orders
 NB_ORDERS = 300
 

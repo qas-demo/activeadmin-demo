@@ -1,5 +1,4 @@
 # The Active Admin Store
-[![Travis CI](https://img.shields.io/travis/activeadmin/activeadmin/master.svg)           ](https://travis-ci.org/activeadmin/activeadmin)
 
 The [Gauge example](https://github.com/getgauge/gauge-example-java) is for this application.
 
