@@ -34,3 +34,5 @@ gem 'nifty-generators'
 gem "activeadmin", '0.6.5'
 gem "faker"
 gem 'rack-cache'
+
+gem 'tzinfo-data'

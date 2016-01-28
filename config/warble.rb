@@ -18,7 +18,7 @@ Warbler::Config.new do |config|
   config.includes += FileList["public/assets/.sprockets-manifest-*.json"].existing
 
   # Additional files/directories to exclude
-  # config.excludes = FileList["lib/tasks/*"]
+  config.excludes = FileList["lib/tasks/*", "vendor/cache/*.gem"]
 
   # Additional Java .jar files to include.  Note that if .jar files are placed
   # in lib (and not otherwise excluded) then they need not be mentioned here.
@@ -106,7 +106,7 @@ Warbler::Config.new do |config|
   # When set to true, Warbler will override the value of ENV['GEM_HOME'] even it
   # has already been set. When set to false it will use any existing value of
   # GEM_HOME if it is set.
-  # config.override_gem_home = true
+  config.override_gem_home = false
 
   # Allows for specifing custom executables
   # config.executable = ["rake", "bin/rake"]
