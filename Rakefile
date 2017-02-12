@@ -3,4 +3,9 @@
 
 require File.expand_path('../config/application', __FILE__)
 
+require 'warbler'
+Warbler::Task.new
+
+Rake::Task['war'].enhance ['db:drop', 'db:create', 'db:migrate', 'db:seed']
+
 Rails.application.load_tasks

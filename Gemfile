@@ -36,3 +36,7 @@ gem "faker"
 gem 'rack-cache'
 
 gem 'tzinfo-data'
+
+group :development do
+  gem "warbler", :require => false
+end
