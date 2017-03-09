@@ -5,8 +5,3 @@ tags: integration
 ## Log into the UI
 
 * Logged In
-
-## Click on button
-
-* Feature worked
-
