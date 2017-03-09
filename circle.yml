@@ -13,5 +13,5 @@ test:
     - mvn test
     - cd gauge; gauge specs
   post:
-    - cp -R src/test/gauge/reports $CIRCLE_ARTIFACTS
-    - cp -R src/test/gauge/reports/xml-report $CIRCLE_TEST_REPORTS
+    - cp -R gauge/reports $CIRCLE_ARTIFACTS
+    - cp -R gauge/reports/xml-report $CIRCLE_TEST_REPORTS
