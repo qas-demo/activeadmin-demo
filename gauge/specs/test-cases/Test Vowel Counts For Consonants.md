@@ -1,6 +1,8 @@
 # Test Vowel Counts For Consonants
 
-## The word consonant has consonants
+tags: regression
 
-* 3
+## The word consonant has <3> consonants
+
+* The word consonant has <3> consonants
 
