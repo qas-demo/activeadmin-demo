@@ -5,6 +5,6 @@
 
 var assert = require("assert");
 
-gauge.step("Log into the UI - should - Logged In", function() {
+gauge.step("Log into the UI", function() {
   assert.equal(true, "true");
 });
