@@ -10,7 +10,6 @@ dependencies:
 
 test:
   override:
-    - mvn test
     - cd gauge; gauge specs
   post:
     - cp -R gauge/reports $CIRCLE_ARTIFACTS
