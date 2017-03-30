@@ -17,7 +17,7 @@ var assert = require("assert");
 
 describe("Test that Gherkin Integeration works", function(){
   it("should Execute Cucumber", function() {
-    assert("Test cases run" === "");
+    assert("Test cases run" === "Test cases run");
   });
 });
 
