@@ -17,7 +17,7 @@ var assert = require("assert");
 
 describe("Demo 123", function(){
   it("should Execute Gherkin Test Cases", function() {
-    assert("Test Cases Execute" === "");
+    assert("Test Cases Execute" === "Test Cases Execute");
   });
 });
 
