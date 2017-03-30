@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "mocha tests/generated/pulse/*.js"
+    "test": "mocha tests/generated/pulse/*.js --reporter xunit --reporter-options output=results.xml"
   },
   "repository": {
     "type": "git",
