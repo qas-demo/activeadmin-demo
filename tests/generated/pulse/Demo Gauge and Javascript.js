@@ -17,7 +17,7 @@ var assert = require("assert");
 
 describe("Demo Gauge and Javascript", function(){
   it("should Execute gauge test runner", function() {
-    assert("Get some test results back" === "");
+    assert("Get some test results back" === "Got some test results back");
   });
 });
 
