@@ -18,3 +18,5 @@
 *.war
 vendor
 public
+node_modules
+reports/

@@ -1,0 +1,26 @@
+{
+  "name": "activeadmin-demo",
+  "version": "1.0.0",
+  "description": "This is a test application to demo Active Admin. Gauge examples use this as a sample System Under Test.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/generated/pulse/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qas-demo/activeadmin-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qas-demo/activeadmin-demo/issues"
+  },
+  "homepage": "https://github.com/qas-demo/activeadmin-demo#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^3.2.0"
+  }
+}

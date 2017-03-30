@@ -17,7 +17,7 @@ var assert = require("assert");
 
 describe("Test adding another test to version control, correct extension", function(){
   it("should A step", function() {
-    assert("A result" === "My Actual Result");
+    assert("A result" === "A result");
   });
 });
 
