@@ -1,12 +1,19 @@
 dependencies:
   override:
-    - npm install
+    - sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-keys 023EDB0B
+    - sudo apt-add-repository 'deb https://dl.bintray.com/gauge/gauge-deb stable main'
+    - sudo apt-get update
+    - sudo apt-get install gauge=0.7.0
+    - gauge_setup
+    - gauge --install js
+    - gauge --install xml-report
 
 test:
   override: 
-    cd tests; npm run test
+    - cd tests; npm run test
   post:
-    - cp -R reports/xml-report/results.xml $CIRCLE_TEST_REPORTS
+    - cp -R tests/reports $CIRCLE_ARTIFACTS
+    - cp -R tests/reports/xml-report/results.xml $CIRCLE_TEST_REPORTS
 
 notify:
   webhooks:
