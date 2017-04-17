@@ -20,3 +20,4 @@ vendor
 public
 node_modules
 reports/
+results.xml

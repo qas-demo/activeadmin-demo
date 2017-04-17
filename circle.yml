@@ -5,3 +5,7 @@ dependencies:
 test:
   post:
     - cp -R results.xml $CIRCLE_TEST_REPORTS
+
+notify:
+  webhooks:
+    - url: https://pulse.qas-labs.ngrok.io/api/v1/webhooks/LHCQ9yMAALtLaMHJq/4saT2uRbEvcNqAaqX/3543735b-e928-444e-95ee-04163caefd53
