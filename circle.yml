@@ -13,7 +13,7 @@ test:
     - cd tests; npm run test
   post:
     - cp -R tests/reports $CIRCLE_ARTIFACTS
-    - cp -R tests/reports/xml-report/results.xml $CIRCLE_TEST_REPORTS
+    - cp -R tests/reports/xml-report/result.xml $CIRCLE_TEST_REPORTS
 
 notify:
   webhooks:
