@@ -3,8 +3,9 @@ dependencies:
     - npm install
 
 test:
+  override: cd tests; npm run test
   post:
-    - cp -R results.xml $CIRCLE_TEST_REPORTS
+    - cp -R reports/xml-report/results.xml $CIRCLE_TEST_REPORTS
 
 notify:
   webhooks:
