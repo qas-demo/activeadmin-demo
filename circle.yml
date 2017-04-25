@@ -17,4 +17,4 @@ test:
 
 notify:
   webhooks:
-    - url: https://pulse.qas-labs.ngrok.io/api/v1/webhooks/NY8usDSw5LNAKvvCq/SS3RkQEMcPNEtBiCn/80d5b352-7146-444e-b9e4-d7e54876c9a03
+    - url: https://pulse.qas-labs.ngrok.io/api/v1/webhooks/NY8usDSw5LNAKvvCq/SS3RkQEMcPNEtBiCn/80d5b352-7146-444e-b9e4-d7e54876c9a0
