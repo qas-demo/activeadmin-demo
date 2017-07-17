@@ -20,5 +20,3 @@ public void The word "gauge" should have "3" vowels$ throws Throwable {
 public void "3" throws Throwable {
     assertEquals(""3"", "");
 }
-
-/* Test Commit Comment */
